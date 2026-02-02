@@ -94,8 +94,14 @@ export const Header = () => {
           </nav>
 
           <div className="mt-auto flex flex-col gap-4">
-            <button className="w-full border border-gray-300 py-3 rounded-xl font-bold">Войти</button>
-            <button className="w-full bg-[#E34234] text-white py-3 rounded-xl font-bold">Регистрация</button>
+            <Link href='/login'>
+              <button className="w-full border border-gray-300 px-5 py-3 rounded-xl text-[16px] font-semibold text-gray-600 hover:bg-gray-100 transition-colors">
+                Войти
+              </button>
+            </Link>
+            <Link href='/register'>
+              <button className="w-full bg-[#E34234] text-white py-3 rounded-xl font-bold">Регистрация</button>
+            </Link>
           </div>
         </div>
       </aside>

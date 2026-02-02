@@ -10,7 +10,7 @@ export const CryptoControl = () => {
   return (
     <section className="px-4 md:px-12 py-8 md:py-16">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-stretch">
-        <div className="bg-[#F7F7F7] rounded-[32px] md:rounded-[40px] p-8 md:p-14 flex flex-col gap-8 border border-gray-50 min-h-[400px]">
+        <div className="bg-[#F7F7F7] rounded-[32px] md:rounded-[40px] p-6 md:p-14 flex flex-col gap-2 md:gap-10 border border-gray-50  md:min-h-[400px]">
           <div className="flex -space-x-4 mb-8 md:mb-0"> 
             {[65, "65 (1)", "65 (2)", "65 (3)"].map((ext, i) => (
               <div key={i} className="relative w-20 h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 border-4 border-[#F7F7F7] rounded-full overflow-hidden">
