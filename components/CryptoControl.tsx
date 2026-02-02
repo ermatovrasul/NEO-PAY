@@ -48,7 +48,7 @@ export const CryptoControl = () => {
             {cryptoRates.map((item, index) => (
               <div key={index} className="flex items-center justify-between group cursor-default border-b border-gray-200/50 pb-4 last:border-0 last:pb-0">
                 <div className="flex items-center gap-3 md:gap-4">
-                  <div className="relative w-10 h-10 md:w-12 md:h-12 bg-white rounded-full p-2 shadow-sm">
+                  <div className="relative w-10 h-10 md:w-12 md:h-12  rounded-full p-2 shadow-sm">
                     <Image 
                       src={item.image} 
                       alt={item.name} 

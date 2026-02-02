@@ -21,7 +21,7 @@ export default function Login() {
               <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-[#E34234] transition-colors" size={20} />
               <input 
                 type="email" 
-                placeholder="example@mail.com"
+                placeholder="neopay@mail.com"
                 className="w-full bg-[#F8F9FB] border border-gray-100 py-4 pl-12 pr-4 rounded-2xl outline-none focus:border-[#E34234]/30 focus:bg-white transition-all"
               />
             </div>

@@ -94,12 +94,12 @@ export const Header = () => {
           </nav>
 
           <div className="mt-auto flex flex-col gap-4">
-            <Link href='/login'>
+            <Link href='/login' onClick={toggleMenu}>
               <button className="w-full border border-gray-300 px-5 py-3 rounded-xl text-[16px] font-semibold text-gray-600 hover:bg-gray-100 transition-colors">
                 Войти
               </button>
             </Link>
-            <Link href='/register'>
+            <Link href='/register' onClick={toggleMenu}>
               <button className="w-full bg-[#E34234] text-white py-3 rounded-xl font-bold">Регистрация</button>
             </Link>
           </div>
