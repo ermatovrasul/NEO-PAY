@@ -20,7 +20,7 @@ export const InfoCards = () => {
           </div>
         </div>
         <div className="w-full lg:flex-1 flex flex-col items-center lg:items-end text-center lg:text-right order-1 lg:order-2">
-          <h3 className="text-3xl md:text-5xl lg:text-6xl font-extrabold mb-4 md:mb-6 text-[#1A1A1A] leading-[1.1]">
+          <h3 className="text-2xl md:text-3xl lg:text-4xl font-extrabold mb-4 md:mb-6 text-[#1A1A1A] leading-[1.1]">
             Самый быстрый <br className="hidden md:block" /> криптоплатежный терминал
           </h3>
           <p className="text-gray-500 text-sm md:text-lg max-w-[450px] leading-relaxed">
@@ -52,7 +52,7 @@ export const InfoCards = () => {
         </div>
 
         <div className="w-full lg:flex-1 flex flex-col items-center lg:items-end text-center lg:text-right order-1 lg:order-2">
-          <h3 className="text-3xl md:text-5xl lg:text-6xl font-extrabold mb-4 md:mb-6 text-[#1A1A1A] leading-[1.1]">
+          <h3 className="text-2xl md:text-3xl lg:text-4xl font-extrabold mb-4 md:mb-6 text-[#1A1A1A] leading-[1.1]">
             Скачайте приложение <br className="hidden md:block" /> и принимайте платежи
           </h3>
           <p className="text-gray-500 text-sm md:text-lg max-w-[450px] leading-relaxed">

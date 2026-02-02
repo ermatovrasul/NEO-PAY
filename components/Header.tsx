@@ -45,12 +45,12 @@ export const Header = () => {
 
         <div className="flex items-center gap-4">
           <div className="hidden sm:flex items-center gap-3">
-            <button className="text-[14px] border border-gray-300 text-[#333] px-5 py-2 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+            <Link href='/login'><button className="border border-gray-300 px-5 py-2 rounded-lg text-[14px] font-semibold text-gray-600 hover:bg-gray-100 transition-colors">
               Войти
-            </button>
-            <button className="bg-[#E34234] text-white px-5 py-2 rounded-lg text-[14px] font-semibold hover:bg-[#c9352a] transition-colors">
+            </button></Link>
+            <Link href='/register'><button className="bg-[#E34234] text-white px-5 py-2 rounded-lg text-[14px] font-semibold hover:bg-[#c9352a] transition-colors">
               Регистрация
-            </button>
+            </button></Link>
           </div>
 
           <button className="lg:hidden p-2 text-gray-600" onClick={toggleMenu}>

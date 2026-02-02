@@ -12,7 +12,7 @@ export const Countries = () => {
   return (
     <section className="px-6 md:px-12 lg:px-12 py-12 md:py-24 bg-white">
       <div className="max-w-4xl mb-10 md:mb-16">
-        <h2 className="text-3xl md:text-5xl lg:text-4xl font-bold mb-4 text-[#1A1A1A] leading-tight">
+        <h2 className="text-2xl md:text-5xl lg:text-4xl font-bold mb-4 text-[#1A1A1A] leading-tight">
           Наш терминал работает <span className="text-[#E34234]">10+</span> странах
         </h2>
         <p className="text-gray-400 text-base md:text-lg leading-relaxed max-w-2xl">

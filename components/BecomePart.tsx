@@ -4,10 +4,10 @@ export const BecomePart = () => {
   return (
     <section className="px-6 md:px-12 py-16 md:py-24 bg-white flex flex-col items-center text-center overflow-hidden">
       <div className="mb-10 md:mb-16 space-y-2 md:space-y-4">
-        <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-[#1A1A1A] leading-tight">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1A1A1A] leading-tight">
           Станьте частью
         </h2>
-        <h3 className="text-3xl sm:text-4xl md:text-6xl font-bold text-[#E34234] leading-tight">
+        <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#E34234] leading-tight">
           NEO PAY
         </h3>
         <div className="pt-4 md:pt-6">

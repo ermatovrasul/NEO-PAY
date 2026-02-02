@@ -8,7 +8,7 @@ export const Hero = () => {
           <span className="bg-black/20 text-[10px] md:text-[12px] px-3 py-1.5 rounded-full uppercase tracking-wider font-medium">
             криптовалютный терминал
           </span>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-6 leading-[1.1] tracking-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-6 leading-[1.1] tracking-tight">
             Цифровое решение для каждого бизнеса
           </h1>
         </div>

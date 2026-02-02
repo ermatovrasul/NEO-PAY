@@ -3,22 +3,22 @@ export const Footer = () => {
     {
       title: "О нас",
       links: [
-        "О MEXC",
-        "Почему MEXC?",
+        "О NEO PAY",
+        "Почему NEO?",
         "Доказательство доверия",
-        "Верификация MEXC",
-        "Центр прозрачности MEXC",
-        "Сообщество MEXC",
-        "Карта событий MEXC",
-        "MEXC Ventures",
-        "Фонд MEXC",
+        "Верификация NEO PAY",
+        "Центр прозрачности NEO PAY",
+        "Сообщество NEO PAY",
+        "Карта событий NEO PAY",
+        "NEO PAY Ventures",
+        "Фонд NEO PAY",
         "Свяжитесь с нами",
       ],
     },
     {
       title: "Продукты",
       links: [
-        "0 комиссии MEXC",
+        "0 комиссии NEO PAY",
         "Спот",
         "Фьючерсы",
         "Бот сеточной торговли на фьючерсах",
@@ -35,30 +35,30 @@ export const Footer = () => {
     {
       title: "Партнеры",
       links: [
-        "О MEXC",
-        "Почему MEXC?",
+        "О NEO PAY",
+        "Почему NEO PAY?",
         "Доказательство доверия",
-        "Верификация MEXC",
-        "Центр прозрачности MEXC",
-        "Сообщество MEXC",
-        "Карта событий MEXC",
+        "Верификация NEO PAY",
+        "Центр прозрачности NEO PAY",
+        "Сообщество NEO PAY",
+        "Карта событий NEO PAY",
         "MEXC Ventures",
-        "Фонд MEXC",
+        "Фонд NEO PAY",
         "Свяжитесь с нами",
       ],
     },
     {
       title: "Правовые вопросы и соответствие требованиям",
       links: [
-        "О MEXC",
-        "Почему MEXC?",
+        "О NEO PAY",
+        "Почему NEO PAY?",
         "Доказательство доверия",
-        "Верификация MEXC",
-        "Центр прозрачности MEXC",
-        "Сообщество MEXC",
-        "Карта событий MEXC",
+        "Верификация NEO PAY",
+        "Центр прозрачности NEO PAY",
+        "Сообщество NEO PAY",
+        "Карта событий NEO PAY",
         "MEXC Ventures",
-        "Фонд MEXC",
+        "Фонд NEO PAY",
         "Свяжитесь с нами",
       ],
     },
@@ -66,7 +66,7 @@ export const Footer = () => {
 
   return (
     <footer className="px-6 md:px-12 py-16 border-t border-gray-100 bg-white">
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-8">
         {footerSections.map((section) => (
           <div key={section.title} className="flex flex-col">
             <h4 className="font-bold text-[#1A1A1A] text-sm md:text-base mb-2 min-h-[40px]">
