@@ -48,10 +48,11 @@ export const VideoInstruction = () => {
             ) : (
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/zaiyCoWyjkg?autoplay=1"
+                src="https://www.youtube.com/embed/zaiyCoWyjkg"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               ></iframe>
             )}
