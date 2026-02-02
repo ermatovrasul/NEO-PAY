@@ -17,7 +17,7 @@ export default function HeroSection() {
           NEO Pay это один из экосистем NEO
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-bold text-[#1A1A1A] mb-8">
+        <h1 className="text-2xl md:text-5xl font-bold text-[#1A1A1A] mb-8">
           О компании <span className="text-[#E34234]">NEO</span>
         </h1>
 
@@ -37,7 +37,7 @@ export default function HeroSection() {
             </div>
 
             <div className="space-y-3">
-              <h3 className="text-2xl md:text-3xl font-bold text-[#1A1A1A]">
+              <h3 className="text-xl md:text-2xl font-bold text-[#1A1A1A]">
                 {text}
               </h3>
               <p className="text-gray-400 text-base md:text-lg leading-relaxed max-w-4xl">
