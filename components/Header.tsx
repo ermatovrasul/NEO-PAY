@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'; 
 import { Menu, X } from 'lucide-react'; 
+import Image from 'next/image';
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ export const Header = () => {
   return (
     <>
       <header className="flex justify-between items-center py-5 px-6 md:px-12 bg-white sticky top-0 z-50 border-b border-gray-50">
-        <div className="text-2xl font-black text-[#E34234] tracking-tighter">NEO PAY</div>
+        <Image src='/image/Frame 427322111.png' alt='NEO PAY' width={130} height={40} /> 
         
         <nav className="hidden lg:flex gap-8 text-[14px] font-medium">
           {navLinks.map((link) => {
