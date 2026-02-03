@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react'; 
 import { Countries } from '@/components/Countries';
+
+export const metadata: Metadata = {
+  title: "О компании — NEO Pay",
+  description: "Узнайте о миссии NEO Pay: интеграция криптовалютных платежей, шлюзы и решения для бизнеса.",
+};
 
 export default function HeroSection() {
   const features = [
