@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   title: "NEO Pay — Криптоплатежи для бизнеса",
   description:
     "Принимайте криптовалюту быстро и безопасно: платёжные шлюзы, аналитика и клиентские решения для бизнеса любого масштаба.",
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   openGraph: {
     title: "NEO Pay — Криптоплатежи для бизнеса",
     description:
