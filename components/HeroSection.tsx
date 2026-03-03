@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 
 export const Hero = () => {
@@ -17,9 +18,9 @@ export const Hero = () => {
           <button className="w-full sm:w-auto border border-white/30 bg-white/10 px-6 py-4 rounded-2xl hover:bg-white/20 transition-all active:scale-95 text-sm md:text-base font-medium">
             Запланировать демонстрацию ↗
           </button>
-          <button className="w-full sm:w-auto bg-white text-black px-6 py-4 rounded-2xl font-bold hover:bg-gray-100 transition-all active:scale-95 text-sm md:text-base">
+          <Link href='/dashboard'><button className="w-full sm:w-auto bg-white text-black px-6 py-4 rounded-2xl font-bold hover:bg-gray-100 transition-all active:scale-95 text-sm md:text-base">
             Начать работу
-          </button>
+          </button></Link>
         </div>
       </div>
 

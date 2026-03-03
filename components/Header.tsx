@@ -15,8 +15,8 @@ export const Header = () => {
   const navLinks = [
     { name: 'Продукты', href: '/' },
     { name: 'Компания', href: '/company' },
-    { name: 'Помощь', href: '/#' },
-    { name: 'Цены', href: '/#' },
+    { name: 'Помощь', href: '/help' },
+    { name: 'Цены', href: '/price' },
   ];
 
   return (
@@ -50,7 +50,7 @@ export const Header = () => {
               Войти
             </button></Link>
             <Link href='/register'><button className="bg-[#E34234] text-white px-5 py-2 rounded-lg text-[14px] font-semibold hover:bg-[#c9352a] transition-colors">
-              Регистрация
+              Зарегистрироваться
             </button></Link>
           </div>
 
@@ -101,7 +101,7 @@ export const Header = () => {
               </button>
             </Link>
             <Link href='/register' onClick={toggleMenu}>
-              <button className="w-full bg-[#E34234] text-white py-3 rounded-xl font-bold">Регистрация</button>
+              <button className="w-full bg-[#E34234] text-white py-3 rounded-xl font-bold">Зарегистрироваться</button>
             </Link>
           </div>
         </div>
